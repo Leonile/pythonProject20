@@ -26,8 +26,8 @@ class AppiumInstance:
             if Settings.appium_settings['autoGrantPermissions']:
                 option.auto_grant_permissions = True
             option.ignore_hidden_api_policy_error = True
-            option.language = 'ru'
-            option.locale = 'RU'
+            option.language = self.settings.mobile_stand['Pixel_6']['language']
+            option.locale = self.settings.mobile_stand['Pixel_6']['locale']
             option.new_command_timeout = Settings.appium_settings['NewCommandTimeout']
 
             self.appium_driver = webdriver.Remote(self.settings.mobile_stand['appium_server'], options=option)

@@ -2,8 +2,10 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 from fw.mobile_base import MobileBase
 
+
 class Locator:
     select_teacher = '(//android.view.ViewGroup[@class="android.view.ViewGroup"])[8]'
+
 
 class TabSchedule(MobileBase):
 
