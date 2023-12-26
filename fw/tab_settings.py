@@ -4,7 +4,7 @@ from fw.mobile_base import MobileBase
 
 class Locator:
     button_change_view = '//android.view.ViewGroup[@content-desc="Студент"]'
-    button_change_cathedra = '(//android.view.ViewGroup[@class="android.view.ViewGroup"])[16]'
+    button_change_cathedra = '(//android.view.ViewGroup[@class="android.view.ViewGroup"])[19]'
 
 class TabSettings(MobileBase):
 

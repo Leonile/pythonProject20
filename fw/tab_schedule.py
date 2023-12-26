@@ -4,7 +4,7 @@ from fw.mobile_base import MobileBase
 
 
 class Locator:
-    select_group_or_teacher = '(//android.view.ViewGroup[@class="android.view.ViewGroup"])[6]'
+    select_group_or_teacher = '(//android.view.ViewGroup[@class="android.view.ViewGroup"])[11]'
 
 
 class TabSchedule(MobileBase):
